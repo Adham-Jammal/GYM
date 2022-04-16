@@ -1,0 +1,133 @@
+body{
+    background-color: #f0f0f0;
+}
+.main-section , .subscriber-section{
+    color: var(--black);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.main-section .user , .subscriber-section .subscriber{
+    width: 30%;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-section .user .user-info{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.main-section .user .user-info img{
+    width: 85px;
+    height: 85px;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 50%;
+ }
+ .main-section .user .user-info .name{
+     font-family: 'poppins';
+     font-size: 1.8rem;
+ }
+ .main-section .user .edit-profile ,.subscriber-section .subscriber .add-subscriber{
+     width: 100%;
+     padding: 20px 0;
+     text-align: center;
+     border-top: 1px solid #ddd;
+ }
+ .main-section .user .edit-profile a ,.subscriber-section .subscriber .add-subscriber a{
+    color: var(--black);
+     font-size: 1.5rem;
+ }
+ .main-section .user .edit-profile i , .subscriber .add-subscriber i {
+     margin-left: 5px;
+ }
+ .main-section .money-info{
+     background-color: #fff;
+     width: 68%;
+     padding: 40px 0;
+     border-radius: var(--border-radius);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+ }
+ .money-info .total-money , .money-info .work-hours , .subscriber-section .subscriber .total-subscriber {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .money-info .total-money h4, .money-info .work-hours h4 ,.subscriber-section .subscriber .total-subscriber h4 {
+     text-align: center;
+     font-size: 2rem;
+ }
+ .money-info .total-money span, .money-info .work-hours span {
+     font-size: 2.5rem;
+ }
+ .money-info .total-money span{
+     color: var(--green);
+ }
+
+.subscriber-section{
+    padding-top: 0;
+}
+.subscriber-section .subscriber .total-subscriber {
+    padding: 10px 0;
+}
+.subscriber-section .subscriber .total-subscriber i{
+    font-size: 3.5rem;
+}
+.subscriber-section .subscriber .total-subscriber span{
+    font-size: 2rem;
+}
+.subscriber-section .subscribers-info{
+background-color: #fff;
+width: 68%;
+padding: 40px 0;
+border-radius: var(--border-radius);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+.subscriber-section .subscribers-info .sub-info{
+    width: 40%;
+}
+.subscriber-section .subscribers-info .sub-info .text{
+    display: flex;
+    justify-content: space-between;
+}
+.subscriber-section .subscribers-info .sub-info .progress-bar{
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.subscriber-section .subscribers-info .sub-info .progress-bar span{
+    display: block;
+    width: 15%;
+    background-color: var(--green);
+    height: 10px;
+}
+@media (max-width:991px) {
+    .main-section ,.subscriber-section{
+        flex-direction: column;
+    }
+    .main-section .user,.main-section .money-info,.subscriber-section .subscriber ,.subscriber-section .subscribers-info{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .subscriber-section .subscribers-info .sub-info{
+        width: 90%;
+        margin: 10px 0;
+    }
+}
