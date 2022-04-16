@@ -59,13 +59,10 @@
     width: 50px;
 }
 .header .header-1 .logo .md{
-    color: var(--second-color);
+    color: var(--main-color);
     font-weight: 600;
 }
-.header .header-1 .logo .goods{
-    color: var(--main-color);
-    font-weight: 400;
-}
+
 
 
 .header .header-1 .search-form{
@@ -124,9 +121,6 @@
     color:var(--main-color);
 }
 
-#search-btn{
-    display: none;
-}
 
 .header .header-2{
     background:var(--main-color);
@@ -273,9 +267,7 @@
         padding: 5px 0;
     }
 
-    #search-btn{
-        display: inline-block;
-    }
+
 
     .header .header-1{
         box-shadow: var(--box-shadow);

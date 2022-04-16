@@ -4,18 +4,11 @@
 
     <div class="header-1">
 
-        <a href="/" class="logo"> <img src="{{ asset('img/logo.png')}}" alt="Logo"><span class="md">MD</span><span class="goods">Goods</span>  </a>
-
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="bi bi-search"></label>
-        </form>
+        <a href="/" class="logo"> <img src="{{ asset('img/logo.png')}}" alt="Logo"><span class="md">الكوتش</span>  </a>
 
         <div class="icons">
-            <div id="search-btn" class="bi bi-search"></div>
-            <a href="#" class="bi bi-heart"></a>
-            <a href="#" class="bi bi-basket"></a>
             <div id="login-btn" class="bi bi-person"></div>
+            <div id="notifications-btn" class="bi bi-bell" style="font-size: 2rem;"></div>
         </div>
 
     </div>
@@ -23,9 +16,6 @@
     <div class="header-2">
         <nav class="my-navbar">
             <a href="/index">لوحة التحكم</a>
-            {{-- <a href="/food-products">Food Products</a> --}}
-            {{-- <a href="/cookbooks">Cookbooks</a> --}}
-            {{-- <a href="/products-listing">Products Listing</a> --}}
         </nav>
     </div>
 

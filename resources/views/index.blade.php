@@ -15,12 +15,12 @@
         <div class="total-money">
             <i class="bi bi-cash"></i>
             <h4>تم الحصول على</h4>
-            <span> <span class="number-font">150.000</span> ل.س</span>
+            <span> <span class="number-font">150.000</span> </span>
         </div>
         <div class="work-hours">
             <i class="bi bi-cash-coin"></i>
             <h4>مجموع رصيد الاشتراكات </h4>
-            <span> <span class="number-font">700.000</span> ل.س</span>
+            <span> <span class="number-font">700.000</span></span>
         </div>
     </div>
 </section>
