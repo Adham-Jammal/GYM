@@ -129,8 +129,160 @@ align-items: center;
         width: 100%;
         margin: 10px 0;
     }
+    .main-section .user{
+        margin-top: 70px;
+    }
     .subscriber-section .subscribers-info .sub-info{
         width: 90%;
         margin: 10px 0;
     }
 }
+/*table*/
+.haveto-renew{
+    padding-top: 0;
+}
+.haveto-renew .client-table{
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: var(--border-radius);
+}
+.haveto-renew .client-table h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+table {
+    margin: 50px 0;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+
+  thead {
+   visibility: hidden;
+   position: absolute;
+   width: 0;
+   height: 0;
+  }
+
+  th {
+    background: var(--main-color);
+    color: #fff;
+  }
+
+  td:nth-child(1) {
+    background: var(--main-color);
+    color: #fff;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+
+  th, td {
+    padding: 1em;
+  }
+
+  tr, td {
+    display: block;
+  }
+
+  td {
+    position: relative;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .client-status a i{
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .client-status .renew{
+      color: var(--green);
+  }
+  .client-status .delete{
+      margin-right: 4px;
+      color: red;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    right: 6px;
+    padding-left: 1em;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'DroidArabicKufiRegular';
+    text-transform: uppercase;
+  }
+
+  tr {
+    margin-bottom: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    text-align: right;
+  }
+
+  tr:last-of-type {
+    margin-bottom: 0;
+  }
+
+  td:nth-child(n+2):nth-child(odd) {
+    background-color: #ddd;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    table {
+      max-width: 1200px;
+      margin: 0 auto 30px auto;
+      border: 1px solid #ddd;
+    }
+
+    thead {
+      visibility: visible;
+      position: relative;
+    }
+
+    th {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+
+    tr {
+      display: table-row;
+      border: none;
+      border-radius: 0;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+    background-color: #ddd;
+  }
+
+    td {
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 600;
+      display: table-cell;
+    }
+    .client-status{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2.2rem;
+        padding: 6px 0;
+    }
+    td::before {
+      content: none;
+    }
+
+    td:nth-child(1) {
+      background: transparent;
+      color: #444;
+      border-radius: 0;
+    }
+
+    td:nth-child(n+2):nth-child(odd) {
+      background-color: transparent;
+    }
+  }

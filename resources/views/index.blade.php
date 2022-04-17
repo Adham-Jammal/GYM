@@ -76,6 +76,42 @@
         </div>
     </div>
 </section>
+<section class="haveto-renew">
+    <div class="client-table">
+        <h2>المشتركين الواجب تجديد اشتراكهم</h2>
+        <table>
+            <thead>
+              <th>الاسم</th>
+              <th>تاريخ استحقاق الدفع</th>
+              <th>الرسوم</th>
+              <th>تجديد اشتراك | حذف</th>
+
+            </thead>
+
+            <tbody>
+              <tr>
+                <td data-label="الاسم">علي طه</td>
+                <td data-label="تاريخ استحقاق الدفع" class="number-font">23 / 1</td>
+                <td data-label="الرسوم" class="number-font">35.000</td>
+                <td data-label="تجديد اشتراك | حذف" class="client-status">
+                    <a href="#" class="renew"><i class="bi bi-arrow-repeat"></i></a>
+                    <a href="#" class="delete"><i class="bi bi-person-dash"></i></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td data-label="الاسم">أدهم جمال</td>
+                <td data-label="تاريخ استحقاق الدفع" class="number-font">23 / 1</td>
+                <td data-label="الرسوم" class="number-font">35.000</td>
+                <td data-label="تجديد اشتراك | حذف" class="client-status">
+                    <a href="#" class="renew"><i class="bi bi-arrow-repeat"></i></a>
+                    <a href="#" class="delete"><i class="bi bi-person-dash"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
