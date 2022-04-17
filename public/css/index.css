@@ -1,6 +1,9 @@
 body{
     background-color: #f0f0f0;
 }
+.main-section{
+    padding-top: 8rem;
+}
 .main-section , .subscriber-section{
     color: var(--black);
     display: flex;
@@ -128,9 +131,7 @@ align-items: center;
     .main-section .user,.main-section .money-info,.subscriber-section .subscriber ,.subscriber-section .subscribers-info{
         width: 100%;
         margin: 10px 0;
-    }
-    .main-section .user{
-        margin-top: 70px;
+        flex-direction: column;
     }
     .subscriber-section .subscribers-info .sub-info{
         width: 90%;

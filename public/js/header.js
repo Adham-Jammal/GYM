@@ -1,46 +1,8 @@
+let hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function(){
+    document.querySelector("body").classList.toggle("active");
+})
 
-
-let loginForm = document.querySelector('.login-form-container');
-
-document.querySelector('#login-btn').onclick = () =>{
-  loginForm.classList.toggle('active');
-}
-
-document.querySelector('#close-login-btn').onclick = () =>{
-  loginForm.classList.remove('active');
-}
-
-window.onscroll = () =>{
-
-  searchForm.classList.remove('active');
-
-  if(window.scrollY > 80){
-    document.querySelector('.header .header-2').classList.add('active');
-  }else{
-    document.querySelector('.header .header-2').classList.remove('active');
-  }
-  if (scrollY >= 430)
-  {
-    scrollTopButton.style="right: 10px;transform: rotate(0deg);"
-  }
-  else
-  {
-    scrollTopButton.style="right: -60px;"
-  }
-
-}
-
-window.onload = () =>{
-
-  if(window.scrollY > 80){
-    document.querySelector('.header .header-2').classList.add('active');
-  }else{
-    document.querySelector('.header .header-2').classList.remove('active');
-  }
-
-  fadeOut();
-
-}
 window.onload = () =>{
     setTimeout(function() {
         var loader = document.querySelector(".loader-wrapper");
