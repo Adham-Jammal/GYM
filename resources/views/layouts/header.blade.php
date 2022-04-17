@@ -34,7 +34,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/index">
                     <span class="icon"><i class="fas fa-desktop"></i></span>
                     <span class="item">لوحة التحكم</span>
                 </a>
