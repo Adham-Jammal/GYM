@@ -13,8 +13,8 @@
             </div>
         </div>
             <div class="icons">
-                <div id="notifications-btn" class="bi bi-bell" style="font-size: 2rem;"></div>
-                <div id="login-btn" class="bi bi-person"></div>
+                <i id="notifications-btn" class="bi bi-bell" style="font-size: 2rem;"></i>
+                <i id="login-btn" class="bi bi-person"></i>
             </div>
         </div>
 
