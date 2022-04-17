@@ -206,7 +206,7 @@ table {
       color: red;
   }
   .client-status .delete:hover{
-      transform: scale(1.1);
+      transform: scale(1.2);
   }
 
   td::before {
