@@ -9,9 +9,10 @@
     <title>Signin Template · Bootstrap v5.1</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{!! url('assets/bootstrap/css/bootstrap.min.css') !!}" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- font awesome cdn link  -->
     <link href="{!! url('assets/css/signin.css') !!}" rel="stylesheet">
-    
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -28,18 +29,18 @@
       }
     </style>
 
-    
+
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
 </head>
 <body class="text-center">
-    
+
     <main class="form-signin">
 
         @yield('content')
-        
+
     </main>
-    
+
 
 </body>
 </html>
